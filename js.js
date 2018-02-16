@@ -18,5 +18,4 @@ window.onload=function(){
 		ele.parentElement.querySelector("code").innerHTML = val;
 		Prism.highlightElement(cod);
 	}
-
 }
