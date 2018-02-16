@@ -12,10 +12,13 @@ window.onload=function(){
 
 	function format(ele){
 		ele.setAttribute("spellcheck","false");	
-		val = ele.value.replace(/</g,"&lt;");
-		val = val.replace(/</g,"&lt;")
+
+		val = ele.value
+		
+		val = val.replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
 		cod = ele.parentElement.querySelector("code");
-		ele.parentElement.querySelector("code").innerHTML = val.replace(/</g,"&lt;");
+		ele.parentElement.querySelector("code").innerHTML = val
 		Prism.highlightElement(cod);
 	}
 
