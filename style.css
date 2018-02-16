@@ -1,0 +1,22 @@
+pre{
+	position: relative;
+	overflow: none;
+}
+
+pre textarea{
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	line-height: 1.5;
+	width: 90%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border: 0;
+	padding: 16 0;
+	font-size: 16;
+	background-color: transparent;
+	overflow: none;
+	outline: none;
+	caret-color: red;
+	resize: none;
+	color: transparent;
+}
