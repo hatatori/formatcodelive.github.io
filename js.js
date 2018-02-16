@@ -13,7 +13,7 @@ window.onload=function(){
 	function format(ele){
 		ele.setAttribute("spellcheck","false");	
 		val = ele.value;
-		val = val.replace(/\</g,"&lt;").replace("\>","&gt;");
+		val = val.replace(/\</g,"&lt;")
 		cod = ele.parentElement.querySelector("code");
 		ele.parentElement.querySelector("code").innerHTML = val;
 		Prism.highlightElement(cod);
