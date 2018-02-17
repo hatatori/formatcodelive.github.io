@@ -14,9 +14,10 @@ pre textarea{
 	padding: 16 0;
 	font-size: 16;
 	background-color: transparent;
-	overflow: none;
+	overflow: hidden;
 	outline: none;
 	caret-color: red;
 	resize: none;
 	color: transparent;
+	
 }
