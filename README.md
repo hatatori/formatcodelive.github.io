@@ -1,2 +1,3 @@
 # https://hatatori.github.io/formatcodelive.github.io/
-#you can format your code lines on live using primsjs
+
+You can format your code lines on live using keyup/primsjs 
